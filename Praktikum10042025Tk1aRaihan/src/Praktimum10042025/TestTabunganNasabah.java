@@ -22,7 +22,7 @@ public class TestTabunganNasabah {
             System.out.println("6. Keluar");
             System.out.print("Pilih menu: ");
             pilihan = input.nextInt();
-            input.nextLine(); // clear buffer
+            input.nextLine(); 
 
             switch (pilihan) {
                 case 1:
@@ -38,7 +38,7 @@ public class TestTabunganNasabah {
                         if (adaSaldo.equalsIgnoreCase("y")) {
                             System.out.print("Masukkan saldo awal: ");
                             saldo = input.nextInt();
-                            input.nextLine(); // clear buffer
+                            input.nextLine(); 
                         } else {
                             saldo = 0;
                         }
